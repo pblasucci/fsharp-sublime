@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#time "${1:on|off}"
+$0</string>
+	<key>name</key>
+	<string>Toggle Timing</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>#t</string>
+	<key>uuid</key>
+	<string>504484C9-10F4-4822-9F2E-C99AE0786884</string>
+</dict>
+</plist>

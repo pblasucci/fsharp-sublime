@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>__SOURCE_FILE__</string>
+	<key>name</key>
+	<string>Source File</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>f_</string>
+	<key>uuid</key>
+	<string>BF651301-C8BE-45B6-9544-6A6ED9840A3A</string>
+</dict>
+</plist>

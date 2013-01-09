@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>TMPDIR=${TMPDIR:=/tmp}
+SRCFILE=`/usr/bin/mktemp $TMPDIR/fsiXXXXXX.fsx` || exit 1
+cat &gt; "$SRCFILE"
+cd "$TMPDIR"
+mono "$FSHARP"/fsi.exe --nologo --gui- --optimize+ --tailcalls --exec "$SRCFILE"
+rm -f "$SRCFILE"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^F</string>
+	<key>name</key>
+	<string>Run Interactively</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>uuid</key>
+	<string>BC27FFD0-10F3-4FEA-90A3-581B5FD19B32</string>
+</dict>
+</plist>

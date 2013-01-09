@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>file="$TM_DROPPED_FILEPATH"
+echo -n "#load @\"\${1:$file}\""
+$0</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>fs</string>
+		<string>fsx</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Load Script</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>uuid</key>
+	<string>463443D1-DB0E-4144-A194-F15BABE8ED1B</string>
+</dict>
+</plist>

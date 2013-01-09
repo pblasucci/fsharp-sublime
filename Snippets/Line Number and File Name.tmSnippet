@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#line ${1:LineNumber} @"${2:FileName}"
+$0
+</string>
+	<key>name</key>
+	<string>Line Number and File Name</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>#ln</string>
+	<key>uuid</key>
+	<string>E50E4115-CAC6-4D9A-BCD4-09D7AB33252F</string>
+</dict>
+</plist>

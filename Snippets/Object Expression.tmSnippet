@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{ new ${1:ClassOrInterface} with
+    member _${2:self}.${3:Member} (${4:Params}) = 
+      $0 }</string>
+	<key>name</key>
+	<string>Object Expression</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>oe</string>
+	<key>uuid</key>
+	<string>16C5A3BF-F871-42C1-9A8D-591EB11A3946</string>
+</dict>
+</plist>

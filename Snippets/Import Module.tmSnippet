@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>open ${1:Module}
+$0
+</string>
+	<key>name</key>
+	<string>Import Module</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>om</string>
+	<key>uuid</key>
+	<string>DF40D355-AED9-41DE-A422-7F305AD8B99A</string>
+</dict>
+</plist>

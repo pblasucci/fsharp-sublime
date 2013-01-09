@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(fun (${1:Params}) -&gt; ${2:Statements})</string>
+	<key>name</key>
+	<string>Anonymous Function</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>fun</string>
+	<key>uuid</key>
+	<string>CBA4F356-D7D8-4B67-86AC-51D9DCE632F7</string>
+</dict>
+</plist>

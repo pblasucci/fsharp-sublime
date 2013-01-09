@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#r @"${1:AssemblyName}.dll"
+$0
+</string>
+	<key>name</key>
+	<string>Add Reference</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>#r</string>
+	<key>uuid</key>
+	<string>8DD933B1-D765-4404-9505-A837480FF3E0</string>
+</dict>
+</plist>

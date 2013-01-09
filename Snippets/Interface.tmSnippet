@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>type ${1:InterfaceName} =
+  abstract ${2:Member} : ${3:'a}
+</string>
+	<key>name</key>
+	<string>Interface</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>face</string>
+	<key>uuid</key>
+	<string>61A09194-ECF4-4E76-BC32-A4F6E94E6F27</string>
+</dict>
+</plist>

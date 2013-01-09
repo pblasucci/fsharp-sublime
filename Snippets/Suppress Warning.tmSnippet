@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#nowarn "${1:WarningNumber}"
+$0</string>
+	<key>name</key>
+	<string>Suppress Warning</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>#nw</string>
+	<key>uuid</key>
+	<string>5072729C-19CD-41F2-9D27-05D66DB82569</string>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+require ENV['TM_SUPPORT_PATH'] + '/lib/escape.rb'
+
+def find_directory
+  files = [ ENV['TM_SELECTED_FILE'], ENV['TM_FILEPATH'], ENV['TM_DIRECTORY'], ENV['TM_PROJECT_DIRECTORY'], ENV['HOME'] ]
+  res = files.find { |file| file &amp;&amp; File.exists?(file) }
+  res &amp;&amp; File.file?(res) ? File.split(res).first : res
+end
+
+def terminal_script(dir)
+  return &lt;&lt;-APPLESCRIPT
+    tell application "Terminal"
+      activate
+      do script "cd #{e_as(e_sh(dir))}; clear; fsi --gui-"
+    end tell
+APPLESCRIPT
+end
+
+if dir = find_directory
+  script = terminal_script(dir)
+  open("|osascript", "w") { |io| io &lt;&lt; script }
+end</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^F</string>
+	<key>name</key>
+	<string>Start Interactive Session</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>uuid</key>
+	<string>5146B974-AC18-4B56-B8AA-90CE6BABD9A9</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>__SOURCE_DIRECTORY__
+</string>
+	<key>name</key>
+	<string>Source Folder</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>d_</string>
+	<key>uuid</key>
+	<string>D436F839-9830-48C9-B625-645D3E7A516B</string>
+</dict>
+</plist>

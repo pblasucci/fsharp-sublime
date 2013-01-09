@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#indent "off"
+$0
+</string>
+	<key>name</key>
+	<string>Force Verbose Syntax</string>
+	<key>scope</key>
+	<string>source.fsharp</string>
+	<key>tabTrigger</key>
+	<string>#ml</string>
+	<key>uuid</key>
+	<string>FCC33A29-F0D3-4AF6-AD0C-C65CC5301E53</string>
+</dict>
+</plist>
