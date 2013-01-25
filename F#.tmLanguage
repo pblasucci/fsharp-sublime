@@ -11,7 +11,7 @@
 		<string>fsx</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>(\b(module|type|)\s.*?=\s*$</string>
+	<string>(\b(module|type|and)\s.*?=\s*$</string>
 	<key>foldingStopMarker</key>
 	<string>^\s*$|^\s*\}|^\s*\]|^\s*\)|^\s*"""\s*$</string>
 	<key>keyEquivalent</key>
@@ -165,7 +165,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(abstract|begin|class|do|elif|else|end|finally|for|get|if|in|inherit|interface|internal|lock|match|member|module|namespace|new|override|pubic|protected|private|ref|seq|set|static|then|try|type|use|val|when|while|with)\b</string>
+					<string>\b(abstract|and|begin|class|do|elif|else|end|finally|for|get|if|in|inherit|interface|internal|lock|match|member|module|namespace|new|of|override|pubic|protected|private|rec|ref|seq|set|static|then|try|type|use|val|when|while|with)\b</string>
 					<key>name</key>
 					<string>keyword.other.fsharp</string>
 				</dict>
@@ -188,9 +188,14 @@
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.function-recursive.fsharp</string>
+							<string>keyword.other.binding.fsharp</string>
 						</dict>
 						<key>3</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.other.function-recursive.fsharp</string>
+						</dict>
+						<key>4</key>
 						<dict>
 							<key>name</key>
 							<string>entity.name.binding.fsharp</string>
@@ -224,6 +229,11 @@
 							<key>name</key>
 							<string>keyword.other.binding.fsharp</string>
 						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.other.binding.fsharp</string>
+						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
@@ -244,6 +254,11 @@
 					<key>captures</key>
 					<dict>
 						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.other.binding.fsharp</string>
+						</dict>
+						<key>2</key>
 						<dict>
 							<key>name</key>
 							<string>keyword.other.binding.fsharp</string>
@@ -348,7 +363,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>\b(module|type)\s+([A-Z][a-zA-Z0-9'_]*)\s*(=)\s*([A-Z][a-zA-Z0-9'_]*)</string>
+					<string>\b(module|type|and)\s+([A-Z][a-zA-Z0-9'_]*)\s*(=)\s*([A-Z][a-zA-Z0-9'_]*)</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
