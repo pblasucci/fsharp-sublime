@@ -165,7 +165,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(abstract|and|begin|class|do|elif|else|end|finally|for|get|if|in|inherit|interface|internal|lock|match|member|module|namespace|new|of|override|pubic|protected|private|rec|ref|seq|set|static|then|try|type|use|val|when|while|with)\b</string>
+					<string>\b(abstract|and|begin|class|delegate|do|elif|else|end|finally|for|get|if|in|inherit|interface|internal|lock|match|member|module|namespace|new|of|override|pubic|protected|private|rec|ref|seq|set|static|then|try|type|use|val|when|while|with)\b</string>
 					<key>name</key>
 					<string>keyword.other.fsharp</string>
 				</dict>
